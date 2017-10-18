@@ -1,0 +1,30 @@
+/*declarando selector de etiqueta*/
+div {
+  display: block;
+  height: 150px;
+  width: 300px;
+  font-size: 20px;
+}
+
+/*declarando selector clase*/
+.yellow {
+  background-color: #ffc107;
+
+  /*espacio que se declara entre el elemento y el borde*/
+  padding: 10px 0 0 10px;/*top-rigth-bottom-left*/
+
+  /*espacio que se declara entre los diferentes elementos*/
+  margin: 10px 10px 10px 10px;/*top-rigth-bottom-left*/
+}
+
+/*declarando selector clase*/
+.black {
+  background-color: #484848 ;
+  color : white;
+
+  /*espacio que se declara entre el elemento y el borde*/
+  padding: 10px 0 0 10px;/*top-rigth-bottom-left*/
+
+  /*espacio que se declara entre los diferentes elementos*/
+  margin: 0 10px 0 10px;/*top-rigth-bottom-left*/
+}
